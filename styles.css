@@ -96,7 +96,6 @@ body {
     top: 0;
     right: 15rem;
     cursor: pointer;
-    transition: width 2s, height 5s;
 }
 
 .display-algo {
