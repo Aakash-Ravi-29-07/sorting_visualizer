@@ -158,8 +158,8 @@ function animate(comparisons, len, replacements) {
         let bar1 = bars[idx1]
         let bar2 = bars[idx2]
         if (turn % 2 == 0) {
-            bar1.style.backgroundColor = "#05fcae"
-            bar2.style.backgroundColor = "#05fcae"
+            bar1.style.backgroundColor = "#FF9B71"
+            bar2.style.backgroundColor = "#FF9B71"
         }
         else {
             bar1.style.backgroundColor = "#036659"
@@ -182,12 +182,12 @@ function animateSwapping(comparisons, len, swaps) {
         let bar1 = bars[idx1]
         let bar2 = bars[idx2]
         if (turn % 2 == 0) {
-            bar1.style.backgroundColor = "yellow"
-            bar2.style.backgroundColor = "yellow"
+            bar1.style.backgroundColor = "#FFFD82"
+            bar2.style.backgroundColor = "#FFFD82"
         }
         else {
-            bar1.style.backgroundColor = "blue"
-            bar2.style.backgroundColor = "blue"
+            bar1.style.backgroundColor = "#036659"
+            bar2.style.backgroundColor = "#036659"
             idx1 = swaps[idx][0]
             idx2 = swaps[idx][1]
             bar1 = bars[idx1]
