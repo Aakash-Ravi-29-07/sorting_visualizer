@@ -25,7 +25,7 @@ const algoToCall = {
 function getRandomHeights(n) {
     var heights = [];
     for (var i = 0; i < n; i++) {
-        heights.push(Math.random() * 340)
+        heights.push(Math.random() * 400)
     }
     return heights
 }
